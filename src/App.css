@@ -1,0 +1,101 @@
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins',sans-serif ;
+  
+}
+.nav{
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+.nav--logo{
+  width: 7vw;
+  margin-left: 1vw;
+  padding-block: 1vw;
+}  
+
+
+/* -------------- Hero section --------------- */
+.Hero {
+  display: flex;
+  flex-direction: column;
+}
+.Hero--img{
+  width: 40vw;
+  margin: 5vw auto;
+  margin-bottom: 0;
+} 
+.Hero--text{
+  margin: 10vw auto;
+  margin-top: 0;
+}
+.Hero h1{
+  font-size: 4vw;
+  margin-bottom: 0;
+}
+.Hero p{
+  color: #444445;
+  font-size: 1.5vw;
+   font-family:Arial, Helvetica, sans-serif;
+} 
+
+/*        -------------- card -----------------       */
+.cards{
+  display:flex;
+}
+.card{
+  width: 14.167vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 5vw 5vw;
+  margin-right: 0px;
+  line-height: 5px;
+}
+.card--stat{
+  position: absolute;
+  background-color:#fff ;
+  font-size: 14.24px;
+  font-weight: 500;
+  border-radius: 5px 5px;
+  padding: .5vw;
+  top: -6px;
+  left: 0.7em;
+}
+.card--img{
+  width: 14.167vw;
+  height: 18.54vw;
+  border-radius: 1rem 1rem;
+}
+.rating{
+  display: flex;
+  width: 6.867vw;
+  margin-top: 8px;
+  justify-content: space-between;
+  line-height: 18px;
+  font-size:22px;
+}
+
+.rating img{
+  height: 0.929vw;
+  width: 0.929vw;
+  margin-right: 3px ;
+}
+.rating--rating-number{
+  font-weight: bold;
+  font-size:20px;
+}
+.rating--reviews,.rating--country{
+  color: #918E9B;
+}
+
+.card--title,.card--cost{
+  margin-top: 3px;
+  font-size:1vw;
+}
+.card--cost{
+  font-weight: bold
+}
+.card--cost span{
+  font-weight: 100;
+}
